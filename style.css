@@ -98,7 +98,7 @@ body {
 .gift-box {
   width: 150px;
   height: 150px;
-  background: url('image/gift-box-removebg-preview.png') no-repeat center;
+  background: url('gift-box-removebg-preview.png') no-repeat center;
   background-size: cover;
   margin: 20px auto;
   cursor: pointer;
