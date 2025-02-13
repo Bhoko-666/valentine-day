@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Surprise for Khushi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="yes-no">
+      <h1>Will You Be My Valentine Khushi </h1>
+      <div class="yn">
+        <button class="button-52" role="button" onclick="yes()">Yes</button>
+        <button id="no" class="button-52" role="button" onclick="no()">No</button>
+        <img id="please" src="image/please.gif" alt="">
+        <audio id="audioPlayer" src="" loop></audio>
+    </div>
+    </div>
+    <div class="section">
+      <div class="banner2">
+        💖 Happy Valentine's Day, Khushi! 💖
+    </div>
+    <div class="banner">
+        <div class="gift-box" onclick="openGift()"></div>
+    </div>
+    
+    <div id="messagePopup" class="message-popup">💝 Happy Valentine's Day,<br> My Love! 💝</div>
+    <div id="balloons" class="balloons"></div>
+    </div>
+    
+    <div class="section">
+        <h2>Our Beautiful Memories</h2>
+        <div class="card-container">
+            <div id="card" class="card fade-in">
+                <img id="cardImage" src="image1.jpg" alt="Memory">
+                <p id="cardMessage" class="message">Message 1</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="prevCard()">⏪ Prev</button>
+            <button onclick="nextCard()">Next ⏩</button>
+        </div>
+    </div>
+    
+    <div class="section memory">
+        <h2>Our Best Moments</h2>
+        <p>"The first time we met, the laughter we shared, the late-night talks, and the beautiful memories we've created together. Every moment with you is special."</p>
+    </div>
+    
+    <div class="section" style="background: #d81b60; color: white;">
+        <h2 class="love-animation">💘 I Love You, Khushi! 💘</h2>
+        <p>Forever and always, you're the most special person in my life!</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
