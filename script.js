@@ -84,6 +84,7 @@ function yes() {
     const yesno = document.getElementsByClassName("yes-no");
     const audio = document.getElementById("audioPlayer");
     audio.pause();
+    audio.currentTime = 0;
     // Loop through the "yes-no" elements and hide them
     for (let i = 0; i < yesno.length; i++) {
         yesno[i].style.display = "none";
