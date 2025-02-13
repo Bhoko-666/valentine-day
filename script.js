@@ -83,24 +83,34 @@ function yes() {
     const sections = document.getElementsByClassName("section");
     const yesno = document.getElementsByClassName("yes-no");
     const audio = document.getElementById("audioPlayer");
+
+    // Change audio source and ensure it plays
+    audio.pause();  // Pause any currently playing audio
     audio.src = "dil-tu.mp3";
-    audio.play();
-    // Loop through the "yes-no" elements and hide them
+    audio.load();   // Load the new audio source
+    audio.play().catch(error => console.log("Playback error:", error)); // Handle autoplay issues
+
+    // Hide "yes-no" elements
     for (let i = 0; i < yesno.length; i++) {
         yesno[i].style.display = "none";
     }
+
+    // Show all sections
     for (let i = 0; i < sections.length; i++) {
-        sections[i].style.display = "block";  // Show all sections
-        // Show all sections
-        
+        sections[i].style.display = "block";
     }
 }
 
 function no() {
     const audio = document.getElementById("audioPlayer");
-    document.getElementById("please").style.display = "block";  // Corrected
+    document.getElementById("please").style.display = "block";  
+
+    // Change audio source and ensure it plays
+    audio.pause();
     audio.src = "ninja.mp3";
-    audio.play();
+    audio.load();
+    audio.play().catch(error => console.log("Playback error:", error));
 }
+
 
 updateCard();
