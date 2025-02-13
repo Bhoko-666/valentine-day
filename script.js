@@ -19,23 +19,27 @@ const images = [
     "image (7).jpg",
     "image (8).jpg",
     "image (9).jpg"
-    // "image (10).jpg",
-    // "image (11).jpg",
-    // "image (12).jpg",
-    // "image (13).jpg",
-    // "image (14).jpg",
-    // "image (15).jpg",
-    // "image (16).jpg",
-    // "image (17).jpg",
-    // "image (18).jpg",
-    // "image (19).jpg"
 ];
 const messages = [
-    "Message 1", 
-    "Message 2", 
-    "Message 3", 
-    "Message 4", 
-    "Message 5"
+    "You + Me = Forever Love ❤️", 
+    "You're my favorite reason to smile 😊💖", 
+    "Every moment with you is magical ✨❤️", 
+    "You’re the melody to my heart’s song 🎶💘", 
+    "Loving you is my favorite adventure 🌍💑",
+    "You make my world brighter every day ☀️💖", 
+    "With you, every day feels like Valentine’s Day 💝", 
+    "You’re my happy place, my forever home 🏡💕", 
+    "You are the sweetest part of my life 🍫💞", 
+    "My heart belongs to you, today and always 💓",
+    "You are the love story I always dreamed of 📖💖", 
+    "Holding your hand feels like holding the world 🌎❤️", 
+    "You're my forever and always, no matter what 💍💗", 
+    "Falling for you was the best decision of my life 💕", 
+    "You complete my heart in every way ❤️🧩",
+    "You're not just my love, you're my everything 💖✨", 
+    "Your love is my greatest treasure 💎💘", 
+    "With you, love is effortless and beautiful 💕", 
+    "I loved you yesterday, I love you today, and I'll love you forever 💖💍"
 ];
 
 function updateCard(direction) {
