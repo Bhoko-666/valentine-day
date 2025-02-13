@@ -82,6 +82,8 @@ function openGift() {
 function yes() {
     const sections = document.getElementsByClassName("section");
     const yesno = document.getElementsByClassName("yes-no");
+    const audio = document.getElementById("audioPlayer");
+    audio.pause();
     // Loop through the "yes-no" elements and hide them
     for (let i = 0; i < yesno.length; i++) {
         yesno[i].style.display = "none";
